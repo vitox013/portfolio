@@ -32,21 +32,21 @@ function Home(){
                     <a href="#">{user.name}</a>
                 </nav>
                 <nav className='links'>
-                    <a href="#">Home</a>
+                    <a href='#'>Home</a>
                     <a href="#">Sobre</a>
                     <a href="#">Projetos</a>
                     <a href="#">Contato</a>
                 </nav>
                 <nav className='icons'>
-                    <Icon icon="mdi:gmail" width={29.17} height={23.33} />
-                    <Icon icon="mdi:github" width={25} height={25} />
-                    <Icon icon="mdi:linkedin" width={25} height={25} />
+                    <a href="mailto:vitor.muller310@gmail.com" target="_blank"><Icon icon="mdi:gmail" width={30} height={30} /></a>
+                    <a href="https://github.com/vitox013" target="_blank"><Icon icon="mdi:github" width={30} height={30} /></a>
+                    <a href="https://www.linkedin.com/in/vitor-m%C3%BCller" target="_blank"><Icon icon="mdi:linkedin" width={30} height={30} /></a>
                 </nav>
             </header>
             <div className='container2'>
-                <div id='backImg'>
-                    <img src="../../assets/pexels-negative-space-34153.jpg" alt="" />
+                <div className='backImg'>
                     <img id='myPhoto' src={user.photo} alt="Minha foto" />
+                    <p>Teste</p>
                 </div>
             </div>
         </div>

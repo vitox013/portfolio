@@ -57,8 +57,33 @@ a {
     height: 91.8%;
 }
 
+.backImg {
+    position: relative; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.backImg::before{
+    content: "";
+    background-image: url(../../assets/pexels-negative-space-34153.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+    background-position: right center;
+}
+
 
 #myPhoto {
+    position: relative;
     border-radius: 50%;
     width: 200px;
     height: 200px;
