@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --body-bg-color: #011526;
+  --header: #023059;
+  --text-color: #91BBF2;
+  --poppins: 'Raleway', sans-serif;
+}
+
