@@ -39,16 +39,16 @@ function Home(){
                 </nav>
                 <nav className='icons'>
                     <a href="mailto:vitor.muller310@gmail.com" target="_blank"><Icon icon="mdi:gmail" width={30} height={30} /></a>
-                    <a href="https://github.com/vitox013" target="_blank"><Icon icon="mdi:github" width={30} height={30} /></a>
+                    <a id="git" href="https://github.com/vitox013" target="_blank"><Icon icon="mdi:github" width={30} height={30} /></a>
                     <a href="https://www.linkedin.com/in/vitor-m%C3%BCller" target="_blank"><Icon icon="mdi:linkedin" width={30} height={30} /></a>
                 </nav>
             </header>
-            <div className='container2'>
-                <div className='backImg'>
+            <div className='backImg'>
                     <img id='myPhoto' src={user.photo} alt="Minha foto" />
-                    <p>Teste</p>
+                    <p className='bio'>Olá, eu sou o Vitor!</p>
+                    <p className='subBio'>Código limpo e responsivo é arte.</p>
                 </div>
-            </div>
+
         </div>
         </>
     )

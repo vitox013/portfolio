@@ -8,15 +8,17 @@
 }
 
 .container {
-    height: 960px;
+    height: 100vh;
+    background-color: #011526;
 }
 
 header {
     display: flex;
     align-items: center;
     background-color: var(--header);
-    height: 80px;
+    height: 8%;
     padding-left: 50px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.354);
 }
 
 a {
@@ -41,6 +43,12 @@ a {
     font-family:var(--raleway);
 }
 
+.links a:hover {
+    color: #011526;
+    transform: scale(1.2);
+	transition: 0.2s ease-in-out;
+}
+
 .icons {
     padding-left: 3%;
     flex-grow: 1;
@@ -49,23 +57,20 @@ a {
     color: var(--text-color);
 }
 
-.container2 {
-    background-color: #011526;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 91.8%;
+.icons a:hover {
+    color: #011526;
+    transform: scale(1.2);
+	transition: 0.2s ease-in-out;
 }
 
 .backImg {
     position: relative; 
-    height: 100%;
+    height: 92%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .backImg::before{
@@ -81,10 +86,31 @@ a {
     background-position: right center;
 }
 
-
 #myPhoto {
     position: relative;
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
+}
+
+#myPhoto:hover {
+    color: #011526;
+    transform: scale(1.2);
+	transition: 0.2s ease-in-out;
+}
+
+.bio {
+    font-family: var(--raleway);
+    color: #91BBF2;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.subBio {
+    font-family: var(--raleway);
+    color: #91BBF2;
+    padding-top: 10px;
+    font-size: 20px;
 }
