@@ -45,7 +45,7 @@ a {
 
 .links a:hover {
     color: #011526;
-    transform: scale(1.2);
+    transform: scale(1.1);
 	transition: 0.2s ease-in-out;
 }
 
@@ -71,20 +71,14 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    font-family: var(--raleway);
+    color: #91BBF2;
+    background-image: url(../../assets/keyboardBG.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.backImg::before{
-    content: "";
-    background-image: url(../../assets/pexels-negative-space-34153.jpg);
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.1;
-    background-position: right center;
-}
 
 #myPhoto {
     position: relative;
@@ -96,21 +90,48 @@ a {
 
 #myPhoto:hover {
     color: #011526;
-    transform: scale(1.2);
+    transform: scale(1.1);
 	transition: 0.2s ease-in-out;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.368);
 }
 
 .bio {
-    font-family: var(--raleway);
-    color: #91BBF2;
+    
     font-size: 30px;
     padding-top: 10px;
     font-weight: bold;
 }
 
 .subBio {
-    font-family: var(--raleway);
-    color: #91BBF2;
     padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
 }
+
+
+#go {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: none;
+    color: #91BBF2;
+    border: none;
+    padding: 10px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: #023059;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.245);
+}
+
+#go:hover {
+    background-color: #035AA6;
+    transition: 0.2s ease-in-out;
+}
+    
+
+
+
+
+

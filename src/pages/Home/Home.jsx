@@ -7,7 +7,8 @@ import './Home.css'
 function Home(){
 
     const [user, setUser] = useState({name: '', photo: ''})
-
+    const [arrow, setArrow] = useState('material-symbols:arrow-right-alt')
+    
     useEffect(() => { 
         async function fetchData() {
             const response = await fetch('https://api.github.com/users/vitox013');
@@ -21,8 +22,6 @@ function Home(){
 
         fetchData();
     }, []);
-
-
 
     return (
         <>
@@ -47,8 +46,13 @@ function Home(){
                     <img id='myPhoto' src={user.photo} alt="Minha foto" />
                     <p className='bio'>Olá, eu sou o Vitor!</p>
                     <p className='subBio'>Código limpo e responsivo é arte.</p>
+                    <button id='go' 
+                        onMouseEnter={() => setArrow('mdi:arrow-collapse-down')} 
+                        onMouseLeave={() => setArrow('material-symbols:arrow-right-alt')}>
+                        Vamos lá 
+                        <Icon icon={arrow}/>
+                    </button>
                 </div>
-
         </div>
         </>
     )
