@@ -22,26 +22,27 @@ function Home(){
 
         fetchData();
     }, []);
+    
 
     return (
         <>
         <div className="container">
-            <header>
-                <nav className='logo'>
+            <nav id='navbar'>
+                <div className='logo'>
                     <a href="#">{user.name}</a>
-                </nav>
-                <nav className='links'>
+                </div>
+                <div className='links'>
                     <a href='#'>Home</a>
                     <a href="#">Sobre</a>
                     <a href="#">Projetos</a>
                     <a href="#">Contato</a>
-                </nav>
-                <nav className='icons'>
+                </div>
+                <div className='icons'>
                     <a href="mailto:vitor.muller310@gmail.com" target="_blank"><Icon icon="mdi:gmail" width={30} height={30} /></a>
                     <a id="git" href="https://github.com/vitox013" target="_blank"><Icon icon="mdi:github" width={30} height={30} /></a>
                     <a href="https://www.linkedin.com/in/vitor-m%C3%BCller" target="_blank"><Icon icon="mdi:linkedin" width={30} height={30} /></a>
-                </nav>
-            </header>
+                </div>
+            </nav>
             <div className='backImg'>
                     <img id='myPhoto' src={user.photo} alt="Minha foto" />
                     <p className='bio'>Olá, eu sou o Vitor!</p>

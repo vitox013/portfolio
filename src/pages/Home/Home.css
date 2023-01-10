@@ -12,7 +12,9 @@
     background-color: #011526;
 }
 
-header {
+nav {
+    position: sticky;
+    top: 0px;
     display: flex;
     align-items: center;
     background-color: var(--header);
@@ -25,6 +27,7 @@ a {
     padding: 10px;
     text-decoration: none;
     color: var(--text-color);
+    font-weight: 600;
 }
 
 .logo {
@@ -55,6 +58,7 @@ a {
     display: flex;
     gap: 5%;
     color: var(--text-color);
+    
 }
 
 .icons a:hover {
@@ -86,6 +90,7 @@ a {
     width: 200px;
     height: 200px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
+    transition: 0.2s ease-in-out;
 }
 
 #myPhoto:hover {
@@ -99,12 +104,13 @@ a {
     
     font-size: 30px;
     padding-top: 10px;
+    padding-bottom: 20px;
     font-weight: bold;
 }
 
 .subBio {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     font-size: 20px;
 }
 
@@ -123,11 +129,12 @@ a {
     background-color: #023059;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.245);
+    transition: all 0.2s ease-in-out 0s;
 }
 
 #go:hover {
     background-color: #035AA6;
-    transition: 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out 0s;
 }
     
 
