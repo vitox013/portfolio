@@ -1,0 +1,50 @@
+:root {
+    --body-bg-color: #011526;
+    --header: #023059;
+    --text-color: #91BBF2;
+    --poppins: 'Raleway', sans-serif;
+  }
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 13%;
+    color: var(--text-color);
+    gap: 1em;
+}
+
+.name {
+    font-size: 3em;
+}
+
+.profissao{ 
+    display: flex;
+    font-size: 1.5em;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.backImg {
+    background: url(../../imgs/picture.png);
+    width: 300px;
+    height: 300px;
+    animation: profileAnimation 8s ease-in-out infinite 1s;
+    box-shadow: inset 0 0 0 9px #91bbf260;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+@keyframes profileAnimation {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}

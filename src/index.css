@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 :root {
@@ -10,3 +12,7 @@
   --poppins: 'Raleway', sans-serif;
 }
 
+html, body, #root {
+  background-color: #011526;
+  height: 100%;
+}

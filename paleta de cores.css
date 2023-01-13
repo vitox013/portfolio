@@ -18,3 +18,10 @@
 .color-theme_9c2c63eab0acefb8cdf08dd965c9b24d-3-hsla { color: hsla(208, 95, 17, 1); }
 .color-theme_9c2c63eab0acefb8cdf08dd965c9b24d-4-hsla { color: hsla(207, 94, 7, 1); }
 .color-theme_9c2c63eab0acefb8cdf08dd965c9b24d-5-hsla { color: hsla(203, 96, 33, 1); }
+
+:root {
+  --body-bg-color: #011526;
+  --header: #023059;
+  --text-color: #91BBF2;
+  --poppins: 'Raleway', sans-serif;
+}
