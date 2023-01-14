@@ -1,0 +1,32 @@
+.btn {
+    background-color: #0367A6;
+    color: #011526;
+    width: 40%;
+    padding: 1.0em 0em;
+    border-radius: 9px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2em;
+    padding-right: 1.5em;
+}
+
+.btn a {
+    color: #011526;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    background-color: #027bc7;
+    cursor: pointer;
+}
+
+.btn svg {
+    margin-left: 0.5em;
+    font-size: 21px;
+    position: absolute;
+}

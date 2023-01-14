@@ -1,9 +1,19 @@
-.container {
+/* .container {
     width: 1000px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
+} */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 
 .min-height {

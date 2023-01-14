@@ -1,0 +1,11 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1em;
+}
+
+.intro h1 {
+    font-size: 34px;
+}

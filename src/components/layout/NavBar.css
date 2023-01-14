@@ -7,10 +7,18 @@
 
 .nav-bar {
     display: flex;
+    z-index: 999;
     justify-content: space-between;
     background-color: var(--header);
     padding: 1em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
+
+
+
 
 .logoName {
     display: flex;
@@ -28,8 +36,6 @@
 }
 
 
-
-
 .item {
     margin-right: 1em;
     font-size: 1.1em;
@@ -38,12 +44,13 @@
 .item a {
     color:var(--text-color);
     text-decoration: none;
-
+    transition: 0.2s ease-in-out;
 }
 
 .item a:hover {
     color: #011526;
-	transition: 0.2s ease-in-out;
 }
+
+
 
 

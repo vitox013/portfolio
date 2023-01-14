@@ -1,0 +1,33 @@
+
+
+.cv {
+    background-color: #0367A6;
+    color: #011526;
+    width: 40%;
+    padding: 0.8em 0.5em 1em 0em;
+    border-radius: 9px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4em;
+    position: relative;
+}
+
+.cv a {
+    color: #011526;
+    text-decoration: none;
+}
+
+.cv:hover {
+    background-color: #027bc7;
+}
+
+.curr {
+    position: absolute;
+    top: 0.5em;
+    left: 2.9em;
+    width: 100%;
+}

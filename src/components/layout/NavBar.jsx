@@ -1,22 +1,23 @@
-import { Link } from "react-router-dom";
+import { useState, useEffect } from 'react';
 import Container from "./Container";
 import "./NavBar.css"
 
 
 
 function NavBar(){
+
+
     return (
         <nav className='nav-bar'>
             <Container customClass="nav-height">
-                <Link to="/" className="logoName"><span>Müller</span></Link>
+                <a href="/" className="logoName"><span>Müller</span></a>
                 <ul className="list">
-                    <li className="item"><Link to="/">Home</Link></li>
-                    <li className="item"><Link to="/sobre">Sobre</Link></li>
-                    <li className="item"><Link to="/sobre">Skills</Link></li>
-                    <li className="item"><Link to="/portfolio">Portfolio</Link></li>
-                    <li className="item"><Link to="/contato">Contato</Link></li>
+                    <li className="item"><a href="#home">Home</a></li>
+                    <li className="item"><a href="#sobre">Sobre</a></li>
+                    <li className="item"><a href="#skills">Skills</a></li>
+                    <li className="item"><a href="#portfolio">Portfolio</a></li>
+                    <li className="item"><a href="#contato">Contato</a></li>
                 </ul>
-               
             </Container>
         </nav>
     )
