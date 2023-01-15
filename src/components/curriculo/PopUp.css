@@ -23,6 +23,7 @@
 
 .cv:hover {
     background-color: #027bc7;
+    transform: translateY(-5px);
 }
 
 .curr {

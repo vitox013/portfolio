@@ -12,6 +12,7 @@
     font-weight: bold;
     margin-top: 2em;
     padding-right: 1.5em;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
 }
 
 .btn a {
