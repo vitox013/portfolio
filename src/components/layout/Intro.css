@@ -4,8 +4,9 @@
     align-items: center;
     justify-items: center;
     gap: 1em;
+    color: #91BBF2;
 }
 
 .intro h1 {
-    font-size: 34px;
+    font-size: 2.125em;
 }

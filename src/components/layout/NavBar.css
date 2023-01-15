@@ -15,6 +15,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
 }
 
 
@@ -39,6 +40,8 @@
 .item {
     margin-right: 1em;
     font-size: 1.1em;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .item a {
@@ -49,6 +52,7 @@
 
 .item a:hover {
     color: #011526;
+    border-bottom: 3px solid #011526 ;
 }
 
 

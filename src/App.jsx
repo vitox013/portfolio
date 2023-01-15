@@ -1,4 +1,3 @@
-
 import Home from './components/pages/Home'
 import NavBar from './components/layout/NavBar'
 import About from './components/pages/About'

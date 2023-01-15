@@ -1,0 +1,13 @@
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 5em;
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}
