@@ -1,19 +1,19 @@
 import "./CardTools.css"
 
-function CardTools(){
+function CardTools({name, i1, prim, i2, segu, i3, terc, i4, quar,i5,quint,i6, sext}){
     return (
         <div className="card-tools">
-            <h3>Frontend developer</h3>
+            <h3>{name}</h3>
             <div className="itens">
                 <ul>
-                    <li><i class='bx bxl-html5 icons' ></i>HTML</li>
-                    <li><i class='bx bxl-css3 icons' ></i>CSS</li>
-                    <li><i class='bx bxl-javascript icons' ></i>JavaScript</li>
+                    <li><i class={i1} ></i>{prim}</li>
+                    <li><i class={i2} ></i>{segu}</li>
+                    <li><i class={i3} ></i>{terc}</li>
                 </ul>
                 <ul>
-                    <li><i class='bx bxl-bootstrap icons' ></i>Bootstrap</li>
-                    <li><i class='bx bxl-git icons' ></i>Git</li>
-                    <li><i class='bx bxl-react icons' ></i>React</li>
+                    <li><i class={i4} ></i>{quar}</li>
+                    <li><i class={i5} ></i>{quint}</li>
+                    <li><i class={i6} ></i>{sext}</li>
                 </ul>
             </div>
         </div>
@@ -22,4 +22,3 @@ function CardTools(){
 
 export default CardTools;
 
-// PHP LARAVEL APACHE MYSQL
