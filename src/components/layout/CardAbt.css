@@ -9,6 +9,7 @@
     padding: 10px 0;
     color: #011526;
     font-weight: bold;
+    font-size: 1.125rem;
     transition: 0.2s ease-in-out;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
 }

@@ -26,7 +26,7 @@ function Home(){
                     <p className='scroll'><BsMouse/>Scroll Down<i class='bx bx-down-arrow-alt bx-fade-down animation-duration 90 arr' ></i></p>
                 </div>
             </div>
-            <div className='backImg' onMou>
+            <div className='backImg'>
 
             </div>
         </Container>

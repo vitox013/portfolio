@@ -8,20 +8,19 @@
 .bio_container {
     display: flex;
     flex-direction: column;
-    /* padding-top: 15%; */
     color: var(--text-color);
-    gap: 1.5em;
+    gap: 1.5rem;
 }
 
 .name {
-    margin-top: 1em;
-    font-size: 42px;
+    margin-top: 1.5rem;
+    font-size: 2.625rem;
     font-weight: bold;
 }
 
 .profissao{ 
     display: flex;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     justify-items: center;
     align-items: center;
     font-weight: 600;
@@ -30,7 +29,7 @@
 
 .bio {
     display: flex;
-    font-size: 18px;
+    font-size: 1.125rem;
     flex-direction: column;
     justify-items: flex-start;
     gap: 1rem;
@@ -39,12 +38,12 @@
 .sub_bio {
     display: flex;
     flex-direction: column;
-    gap: 0.3em;
+    gap: 0.3rem;
 }
 
 
 .scroll {
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
     justify-items: center;
     align-items: center;

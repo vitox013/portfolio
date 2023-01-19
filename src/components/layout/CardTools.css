@@ -6,10 +6,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4em;
+    gap: 4rem;
     transition: 0.2s ease-in-out;
     cursor: pointer;
+    font-size: 1.125rem;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
+
 }
 
 .card-tools:hover {
@@ -23,7 +25,18 @@
 .itens {
     display: flex;
     gap: 7em;
-    padding-left: 1.5em;
+    padding-left: 5em;
+    height: 200px;
+    width: 100%;
+    
+}
+
+.itens ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100%;
 }
 
 .itens li {
@@ -35,7 +48,7 @@
 }
 
 .icons {
-    font-size: 1.5em;
+    font-size: 2.1em;
     position: absolute;
     left: -0.6em;
     top:-0.2em;
