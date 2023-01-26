@@ -6,7 +6,7 @@ import "./PopUp.css";
 
 function PopUp(){
     return (
-        <Popup trigger={<button className='cv'> Ver Currículo <i class='bx bxs-file bx-sm curr' ></i></button>} modal >
+        <Popup trigger={<button className='cv'> Ver Currículo <i class='bx bxs-file curr' ></i></button>} modal >
             <div className='view'><Curriculo/></div>
         </Popup>
     )

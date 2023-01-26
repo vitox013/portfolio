@@ -12,7 +12,7 @@ function Home(){
     return (
         <Container customClass="homeContainer" >
             <Links />
-            <div className='bio_container' >
+            <div className='bio_container' id='home' >
                 <div className='bio'>
                     <p className='name'>Vitor Müller <GiHand/></p>
                     <p className='profissao'><AiOutlineLine/> Dev Full Stack</p>

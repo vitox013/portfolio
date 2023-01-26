@@ -1,0 +1,55 @@
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    gap: 2rem;
+    color: #91BBF2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu span {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.menu span:hover {
+    color: #011526;
+    background-color: #91BBF2;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.projects {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    color: #011526 !important;
+    background-color: #91BBF2;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 480px) {
+
+    .projects {
+      width: 70%;
+    }
+  }
+  

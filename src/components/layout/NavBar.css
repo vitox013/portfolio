@@ -1,60 +1,106 @@
 :root {
-    --body-bg-color: #011526;
-    --header: #023059;
-    --text-color: #91BBF2;
-    --raleway: 'Raleway', sans-serif;
+  --body-bg-color: #011526;
+  --header: #023059;
+  --text-color: #91bbf2;
+  --raleway: "Raleway", sans-serif;
 }
 
 .nav-bar {
-    display: flex;
-    z-index: 999;
-    justify-content: space-between;
-    background-color: var(--header);
-    padding: 1em;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
+  display: flex;
+  z-index: 999;
+  justify-content: space-between;
+  background-color: var(--header);
+  padding: 1em;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
 }
 
-
-
+.fixed {
+  position: sticky;
+}
 
 .logoName {
-    display: flex;
-    color: var(--text-color);
-    text-decoration: none;
-    align-items: center;
-    font-weight: bold;
-    font-size: 1.5em;
+  display: flex;
+  color: var(--text-color);
+  text-decoration: none;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .list {
-    display: flex;
-    list-style: none;
-    align-items: center;
+  gap: 1.5rem;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
-
 .item {
-    margin-right: 1em;
-    font-size: 1.1em;
-    cursor: pointer;
-    font-weight: bold;
+  /* margin-right: 1rem; */
+  font-size: 1.1em;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .item a {
-    color:var(--text-color);
-    text-decoration: none;
-    transition: 0.2s ease-in-out;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
 }
 
 .item a:hover {
-    color: #011526;
-    border-bottom: 3px solid #011526 ;
+  color: #011526;
+  border-bottom: 3px solid #011526;
 }
 
+@media (max-width: 480px) {
+  .nav-bar {
+    padding: 1em 0rem;
+    justify-content: space-between;
+  }
 
+  .list {
+    gap: 0.8rem;
+  }
 
+  .logoName {
+    font-size: 1rem;
+  }
+  .item {
+    font-size: 0.8rem;
+  }
+}
 
+@media (min-width: 481px) and (max-width: 768px) {
+  .nav-bar {
+    padding: 1rem 0rem;
+    justify-content: space-between;
+  }
+
+  .list {
+    gap: 1.2rem;
+  }
+
+  .logoName {
+    font-size: 1.3rem;
+  }
+  .item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  h5 {
+    color: coral;
+  }
+}
+
+/* 1200 e + = telas maiores, tvs */
+@media (min-width: 1200px) {
+  h5 {
+    color: darkorchid;
+  }
+}

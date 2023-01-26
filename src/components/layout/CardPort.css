@@ -1,0 +1,68 @@
+.cardPort {
+  min-width: 400px;
+  max-height: 353px;
+  background-color: #035aa6;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #011526;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+}
+.cardPort:hover {
+    transform: translateY(-5px) ;
+    background-color: #027bc7;
+    cursor: pointer;
+}
+
+img {
+  width: 356px;
+  height: 253px;
+  border-radius: 20px;
+  margin: 1rem 0rem;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.demo {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  position: relative;
+  opacity: 0.7;
+} 
+
+.seta {
+    position: absolute;
+    top: 0.1rem;
+    margin-left: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  .cardPort {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (max-width: 1024px) {
+  h5 {
+    color: coral;
+  }
+}
+
+/* 1200 e + = telas maiores, tvs */
+@media (min-width: 1200px) {
+  h5 {
+    color: darkorchid;
+  }
+}

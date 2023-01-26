@@ -5,7 +5,7 @@ import CardTools from "../layout/CardTools";
 
 function Skills() {
   return (
-    <Container>
+    <Container customClass="container_skills">
       <section id="skills">
         <Intro intro="Skills" text="Minhas habilidades técnicas" />
         <div className="tools">

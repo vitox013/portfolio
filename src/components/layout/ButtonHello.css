@@ -8,7 +8,7 @@
     transition: 0.2s ease-in-out;
     cursor: pointer;
     border: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
     margin-top: 2em;
     padding-right: 1.5em;
@@ -31,3 +31,40 @@
     font-size: 21px;
     position: absolute;
 }
+
+@media (max-width: 480px) {
+    .btn {
+        width: 125%;
+        font-size: 1rem;
+        padding: 0.6rem 1.5rem 0.6rem 0rem;
+    }
+
+    .btn svg {
+        font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .btn {
+        width: 125%;
+        font-size: 1rem;
+        padding: 0.6rem 1.5rem 0.6rem 0rem;
+    }
+
+    .btn svg {
+        font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    h5 {
+      color: coral;
+    }
+  }
+  
+  /* 1200 e + = telas maiores, tvs */
+  @media (min-width: 1200px) {
+    h5 {
+      color: darkorchid;
+    }
+  }

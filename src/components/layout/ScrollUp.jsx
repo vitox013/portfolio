@@ -1,5 +1,6 @@
 import "./ScrollUp.css";
 import { Link } from "react-scroll";
+
 const ScrollUp = () => {
   window.addEventListener("scroll", function () {
     const scrollUp = document.querySelector(".scrollup");
@@ -7,6 +8,7 @@ const ScrollUp = () => {
       ? scrollUp.classList.add("show-scroll")
       : scrollUp.classList.remove("show-scroll");
   });
+  
   return (
     <Link
       className="scrollup"

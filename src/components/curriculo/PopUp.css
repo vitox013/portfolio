@@ -1,34 +1,70 @@
-
-
 .cv {
-    background-color: #0367A6;
-    color: #011526;
-    width: 40%;
-    padding: 0.8em 0.5em 1em 0em;
-    border-radius: 9px;
-    text-decoration: none;
-    transition: 0.2s ease-in-out;
-    cursor: pointer;
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 2rem;
-    position: relative;
+  background-color: #0367a6;
+  color: #011526;
+  width: 45%;
+  padding: 0.8em 0.5em 1em 0em;
+  border-radius: 9px;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2rem;
+  position: relative;
 }
 
 .cv a {
-    color: #011526;
-    text-decoration: none;
+  color: #011526;
+  text-decoration: none;
 }
 
 .cv:hover {
-    background-color: #027bc7;
-    transform: translateY(-5px);
+  background-color: #027bc7;
+  transform: translateY(-5px);
 }
 
 .curr {
-    position: absolute;
-    top: 0.5em;
-    left: 2.9em;
-    width: 100%;
+  position: absolute;
+  font-size: 1.4rem;
+  top: 0.6em;
+  left: 2.9em;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .cv {
+    font-size: 0.8rem;
+  }
+
+  .curr {
+    font-size: 1rem;
+    top: 0.6rem;
+    left: 2.8rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .curr {
+    font-size: 1.4rem;
+    top: 0.9rem;
+    left: 4rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 993px) {
+  .cv {
+    width: 150px;
+    font-size: 1rem;
+    padding: 0.8em 1em 1em 0.6em;
+  }
+
+  .curr {
+    font-size: 1.2rem;
+    top: 0.8rem;
+    left: 3.8rem;
+  }
+}
+
+@media (min-width: 2560px) {
 }

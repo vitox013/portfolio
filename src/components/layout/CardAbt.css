@@ -19,3 +19,46 @@
     background-color: #027bc7;
     cursor: pointer;
 }
+
+.check {
+    font-size: 1.5rem;
+}
+
+.abt {
+    font-size: 2rem;
+}
+
+@media (max-width: 480px) {
+    .card {
+        font-size: 0.7rem;
+    }
+    .check {
+        font-size: 1.2rem;
+    }
+    
+    .abt {
+        font-size: 1.7rem;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card {
+        font-size: 0.9rem;
+    }
+    .check {
+        font-size: 1.4rem;
+    }
+    
+    .abt {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 2560px) {
+  
+}

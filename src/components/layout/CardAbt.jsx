@@ -7,9 +7,9 @@ function CardAbt({icon, text, anima}) {
 
     return (
         <div className="card" onMouseEnter={() => setAnimation(anima)} onMouseLeave={()=> setAnimation('')}>
-            <i class={`bx ${icon} bx-md ${animation}`}></i>
+            <i class={`bx ${icon} abt ${animation}`}></i>
             <p>{text}</p>
-            <i class='bx bx-check bx-sm'></i>
+            <i class='bx bx-check check'></i>
         </div>
     )
 }

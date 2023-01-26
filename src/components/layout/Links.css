@@ -1,19 +1,46 @@
 .links {
-    margin-left: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    align-items: center;
-    font-size: 2rem;
-    gap: 1em;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  align-items: center;
+  font-size: 2rem;
+  gap: 1em;
 }
 
 .links svg {
-    transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .links svg:hover {
-    color: #023059;
-    transform: scale(1.2);
+  color: #023059;
+  transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+  .links {
+    display: none;
+    margin-left: 0.1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .links {
+    display: none;
+    margin-left: 0.1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .links {
+    margin-left: 0.1rem;
+  }
+}
+
+/* 1200 e + = telas maiores, tvs */
+@media (min-width: 1200px) {
+  h5 {
+    color: darkorchid;
+  }
 }

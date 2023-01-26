@@ -10,3 +10,21 @@
 .intro h1 {
     font-size: 2.125em;
 }
+
+@media (max-width: 480px) {
+    .intro h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+ 
+}
+
+@media (min-width: 2560px) {
+  
+}
