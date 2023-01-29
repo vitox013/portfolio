@@ -71,6 +71,10 @@
   .item {
     font-size: 0.8rem;
   }
+  .item a:hover {
+    color: var(--text-color);
+    border-bottom: none;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -88,5 +92,9 @@
   }
   .item {
     font-size: 1rem;
+  }
+  .item a:hover {
+    color: var(--text-color);
+    border-bottom: none;
   }
 }
