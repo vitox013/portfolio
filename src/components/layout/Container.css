@@ -38,7 +38,6 @@
   height: 80vh;
 }
 
-
 .contact_container {
   justify-content: center;
 }
@@ -47,15 +46,14 @@
   .homeContainer {
     height: 100% !important;
   }
-  
+
   .aboutContainer {
     height: 100%;
   }
-  
+
   .container_skills {
     height: 100%;
   }
-  
 }
 
 @media (max-width: 480px) {
@@ -85,42 +83,36 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    .nav-height {
-        height: 1.875rem;
-        margin: 0rem 1.5rem;
-        width: 100%;
-      }
-    
-      .homeContainer {
-        flex-direction: column-reverse;
-        justify-content: center;
-      }
-      .container_skills {
-        height: 100%;
-      }
-      .portfolio_container {
-        height: 100%;
-      }
+  .nav-height {
+    height: 1.875rem;
+    margin: 0rem 1.5rem;
+    width: 100%;
+  }
 
-      .contact_container {
-        height: 100%;
-      }
+  .homeContainer {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .container_skills {
+    height: 100%;
+  }
+  .portfolio_container {
+    height: 100%;
+  }
+
+  .contact_container {
+    height: 100%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 924px) {
-    .homeContainer {
-        justify-content: flex-start;
-        gap: 3rem;
-        flex-wrap: nowrap;
-      }
+  .homeContainer {
+    justify-content: flex-start;
+    gap: 3rem;
+    flex-wrap: nowrap;
+  }
 
-      .portfolio_container {
-        min-height: auto;
-      }
-  
-}
-
-/* 1200 e + = telas maiores, tvs */
-@media (min-width: 1920px) {
-  
+  .portfolio_container {
+    min-height: auto;
+  }
 }

@@ -29,16 +29,13 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    .scrollup {
-        display: none;
-      }
+  .scrollup {
+    display: none;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    .scrollup {
-        display: none;
-      }
-}
-
-@media (min-width: 2560px) {
+  .scrollup {
+    display: none;
+  }
 }

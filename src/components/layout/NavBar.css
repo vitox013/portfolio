@@ -1,4 +1,3 @@
-
 .nav-bar {
   display: flex;
   z-index: 999;
@@ -89,18 +88,5 @@
   }
   .item {
     font-size: 1rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  h5 {
-    color: coral;
-  }
-}
-
-/* 1200 e + = telas maiores, tvs */
-@media (min-width: 1200px) {
-  h5 {
-    color: darkorchid;
   }
 }

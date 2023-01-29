@@ -1,73 +1,67 @@
 #portfolio {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    align-items: center;
-    width: 100%;
-    margin: 4em 0em;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  width: 100%;
+  margin: 4em 0em;
 
-    min-height: auto;
+  min-height: auto;
 }
 .menu {
-    display: flex;
-    gap: 2rem;
-    color: #91BBF2;
-    font-weight: bold;
-    cursor: pointer;
-    text-transform: capitalize;
+  display: flex;
+  gap: 2rem;
+  color: #91bbf2;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: capitalize;
 }
 
 .menu span {
-    padding: 0.5rem;
-    border-radius: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .menu span:hover {
-    color: #011526;
-    background-color: #91BBF2;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
+  color: #011526;
+  background-color: #91bbf2;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .projects {
-    display: flex;
-    width: 900px;
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  width: 900px;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .active {
-    color: #011526 !important;
-    background-color: #91BBF2;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
+  color: #011526 !important;
+  background-color: #91bbf2;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 @media (max-width: 480px) {
+  .projects {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .projects {
+    width: 70%;
+  }
+}
 
-    .projects {
-      width: 100%;
-    }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .projects {
+    width: 100%;
   }
-  @media (min-width: 481px) and (max-width: 768px) {
-    .projects {
-        width: 70%;
-      }
-  }
-  
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .projects {
-        width: 100%;
-      }
-  }
-  
-  @media (min-width: 2560px) {
-    
-  }
-  
+}

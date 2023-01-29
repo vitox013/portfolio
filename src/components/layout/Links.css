@@ -60,10 +60,3 @@
     padding-left: 0.5rem;
   }
 }
-
-/* 1200 e + = telas maiores, tvs */
-@media (min-width: 1200px) {
-  h5 {
-    color: darkorchid;
-  }
-}

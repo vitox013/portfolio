@@ -1,64 +1,58 @@
 .card {
-    background-color: #035AA6 ;
-    width: 30%;
-    border-radius: 5px;;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 0;
-    color: #011526;
-    font-weight: bold;
-    font-size: 1.125rem;
-    transition: 0.2s ease-in-out;
-    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
+  background-color: #035aa6;
+  width: 30%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  color: #011526;
+  font-weight: bold;
+  font-size: 1.125rem;
+  transition: 0.2s ease-in-out;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    background-color: #027bc7;
-    cursor: pointer;
+  transform: translateY(-5px);
+  background-color: #027bc7;
+  cursor: pointer;
 }
 
 .check {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .abt {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 480px) {
-    .card {
-        font-size: 0.7rem;
-    }
-    .check {
-        font-size: 1.2rem;
-    }
-    
-    .abt {
-        font-size: 1.7rem;
-    }
+  .card {
+    font-size: 0.7rem;
+  }
+  .check {
+    font-size: 1.2rem;
+  }
 
+  .abt {
+    font-size: 1.7rem;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    .card {
-        font-size: 0.9rem;
-    }
-    .check {
-        font-size: 1.4rem;
-    }
-    
-    .abt {
-        font-size: 2rem;
-    }
-}
+  .card {
+    font-size: 0.9rem;
+  }
+  .check {
+    font-size: 1.4rem;
+  }
 
-@media (min-width: 2560px) {
-  
+  .abt {
+    font-size: 2rem;
+  }
 }

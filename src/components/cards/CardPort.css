@@ -10,12 +10,11 @@
   justify-content: center;
   justify-items: center;
   transition: 0.2s ease-in-out;
-  
 }
 .cardPort:hover {
-    transform: translateY(-5px) ;
-    background-color: #027bc7;
-    cursor: pointer;
+  transform: translateY(-5px);
+  background-color: #027bc7;
+  cursor: pointer;
 }
 
 .cardPort a {
@@ -48,12 +47,12 @@ img {
   margin-bottom: 1rem;
   position: relative;
   opacity: 0.7;
-} 
+}
 
 .seta {
-    position: absolute;
-    top: 0.1rem;
-    margin-left: 0.2rem;
+  position: absolute;
+  top: 0.1rem;
+  margin-left: 0.2rem;
 }
 
 @media (max-width: 480px) {
@@ -76,15 +75,3 @@ img {
   }
 }
 
-@media (max-width: 1024px) {
-  h5 {
-    color: coral;
-  }
-}
-
-/* 1200 e + = telas maiores, tvs */
-@media (min-width: 1200px) {
-  h5 {
-    color: darkorchid;
-  }
-}
