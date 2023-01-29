@@ -1,16 +1,9 @@
-:root {
-  --body-bg-color: #011526;
-  --header: #023059;
-  --text-color: #91bbf2;
-  --raleway: "Raleway", sans-serif;
-}
-
 .about {
   display: flex;
   flex-direction: column;
   color: #91bbf2;
   width: 100vh;
-  padding-top: 7em;
+  /* padding-top: 7em; */
 }
 
 .desc_photo {
@@ -59,6 +52,11 @@
   line-height: 1.3em;
 }
 
+.curr {
+  position: absolute;
+  font-size: 1.4rem;
+}
+
 @media (max-width: 480px) {
   .about {
     padding-top: 0;
@@ -88,7 +86,12 @@
     font-weight: 600;
     align-items: center;
   }
+  
+  .curr {
+    font-size: 1.15rem;
+  }
 }
+
 
 @media (min-width: 481px) and (max-width: 768px) {
   .photo {
@@ -109,6 +112,10 @@
     padding: 1rem;
     font-weight: 600;
     align-items: center;
+  }
+
+  .curr {
+    font-size: 1.15rem;
   }
 }
 
@@ -139,6 +146,14 @@
         flex-direction: column;
         padding: 0.5rem 1rem;
         font-weight: 600;
+      }
+      .curr {
+        font-size: 1.3rem;
+      }
+
+      .btn {
+        width: 50%;
+        padding-right: 1em;
       }
 }
 

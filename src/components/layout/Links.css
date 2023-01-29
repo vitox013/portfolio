@@ -18,10 +18,25 @@
   transform: scale(1.2);
 }
 
+.footer {
+  flex-direction: row;
+  font-size: 1rem;
+  padding-top: 0.1rem;
+}
+
+.footer svg:hover {
+  color: var(--body-bg-color);
+  transform: scale(1.2);
+}
+
 @media (max-width: 480px) {
   .links {
     display: none;
     margin-left: 0.1rem;
+  }
+  .footer {
+    display: flex;
+    padding-left: 0.5rem;
   }
 }
 
@@ -30,11 +45,19 @@
     display: none;
     margin-left: 0.1rem;
   }
+  .footer {
+    display: flex;
+    padding-left: 0.5rem;
+  }
 }
 
 @media (max-width: 1024px) {
   .links {
     margin-left: 0.1rem;
+  }
+  .footer {
+    display: flex;
+    padding-left: 0.5rem;
   }
 }
 

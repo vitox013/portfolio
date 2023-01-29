@@ -4,6 +4,9 @@
     gap: 5rem;
     align-items: center;
     width: 100%;
+    margin: 4em 0em;
+
+    min-height: auto;
 }
 .menu {
     display: flex;
@@ -11,6 +14,7 @@
     color: #91BBF2;
     font-weight: bold;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 .menu span {
@@ -28,7 +32,6 @@
 .projects {
     display: flex;
     width: 900px;
-    height: 600px;
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
@@ -49,7 +52,22 @@ a {
 @media (max-width: 480px) {
 
     .projects {
-      width: 70%;
+      width: 100%;
     }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .projects {
+        width: 70%;
+      }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .projects {
+        width: 100%;
+      }
+  }
+  
+  @media (min-width: 2560px) {
+    
   }
   

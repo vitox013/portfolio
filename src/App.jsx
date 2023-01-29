@@ -4,6 +4,8 @@ import About from './components/pages/About'
 import Skills from './components/pages/Skills'
 import ScrollUp from './components/layout/ScrollUp'
 import Portfolio from './components/pages/Portfolio'
+import { Contact } from './components/pages/Contact'
+import Footer from './components/layout/Footer'
 
 
 function App() {
@@ -14,8 +16,10 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
-      {/* <Portfolio/>
-      <ScrollUp/> */}
+      <Portfolio/>
+      <Contact/>
+      <ScrollUp/>
+      <Footer/>
     </div>
   )
 }

@@ -4,10 +4,13 @@
     align-items: center;
     width: 100%;
     gap: 5em;
+    margin-top: 4em;
 }
 
 .tools {
     display: flex;
     flex-direction: row;
-    gap: 4em;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }

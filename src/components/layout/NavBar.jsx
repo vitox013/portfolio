@@ -35,7 +35,7 @@ function NavBar() {
               spy={true}
               smooth={true}
               isDynamic={true}
-              offset={0}
+              offset={-80}
               duration={500}
             >
               Sobre
@@ -47,7 +47,7 @@ function NavBar() {
               spy={true}
               smooth={true}
               isDynamic={true}
-              offset={0}
+              offset={-80}
               duration={500}
             >
               Skills
@@ -59,7 +59,7 @@ function NavBar() {
               spy={true}
               smooth={true}
               isDynamic={true}
-              offset={-100}
+              offset={-80}
               duration={500}
             >
               Portfolio
@@ -71,7 +71,7 @@ function NavBar() {
               spy={true}
               smooth={true}
               isDynamic={true}
-              offset={0}
+              offset={-80}
               duration={500}
             >
               Contato

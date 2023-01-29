@@ -8,19 +8,21 @@ const ScrollUp = () => {
       ? scrollUp.classList.add("show-scroll")
       : scrollUp.classList.remove("show-scroll");
   });
-  
+
   return (
-    <Link
-      className="scrollup"
-      to="home"
-      spy={true}
-      smooth={true}
-      isDynamic={true}
-      offset={0}
-      duration={500}
-    >
-      <i className="uil uil-arrow-up scrollup_icon"></i>
-    </Link>
+    <div className="backtop">
+      <Link
+        className="scrollup"
+        to="home"
+        spy={true}
+        smooth={true}
+        isDynamic={true}
+        offset={-500}
+        duration={500}
+      >
+        <i className="uil uil-arrow-up scrollup_icon"></i>
+      </Link>
+    </div>
   );
 };
 

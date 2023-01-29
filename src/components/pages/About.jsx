@@ -2,8 +2,7 @@ import './About.css'
 import Container from '../layout/Container';
 import photo from "../../imgs/picture.png"
 import Intro from '../layout/Intro';
-import CardAbt from '../layout/CardAbt';
-import PopUp from '../curriculo/PopUp';
+import CardAbt from '../cards/CardAbt';
 
 
 function About(){
@@ -24,7 +23,7 @@ function About(){
                         <div className='text'>
                             <p>Comecei primeiramente pela área de hardware e no ano passado entrei no mundo da programação. </p>
                             <p>Acredito que todo conhecimento que eu adquirir me ajudará no meio acadêmico e profissional.</p>
-                            <PopUp/>
+                            <a href="https://drive.google.com/file/d/1CtMbn1E10WkvyX8-1bQTBPtJrcBs0Z5S/view?usp=sharing" target="_blank"><button className='btn'> Ver Currículo <i class='bx bxs-file curr' ></i></button></a>
                         </div>
                     </div>
                 </div>

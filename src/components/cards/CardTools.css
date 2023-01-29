@@ -56,21 +56,28 @@
 
 @media (max-width: 480px) {
   .card-tools {
-    width: 100%;
+    width: 120%;
     gap: 2rem;
-    height: 350px;
+    height: auto;
+    padding: 0.5rem;
   }
   .tools {
     flex-direction: column;
   }
 
+  .card-tools h3 {
+    padding-top: 0.7rem;
+  }
+
   .itens {
     gap: 0em;
     padding-left: 3em;
+    height: auto;
   }
 
   .itens ul {
     flex-wrap: nowrap;
+    height: auto;
   }
 
   .itens li {
@@ -86,9 +93,28 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .card-tools {
+    width: 370px;
+    gap: 2rem;
+    height: auto;
+  }
+  .tools {
+    flex-direction: column;
+  }
+  .itens {
+    padding-left: 4em;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .card-tools {
+    width: 350px;
+    gap: 2rem;
+    height: auto;
+  }
+  .itens {
+    padding-left: 4em;
+  }
 }
 
 @media (min-width: 2560px) {
