@@ -13,7 +13,7 @@ function NavBar() {
   return (
     <nav className="nav-bar">
       <Container customClass="nav-height">
-        <a href="/" className="logoName">
+        <a href="/portfolio" className="logoName">
           <span>Müller</span>
         </a>
         <ul className="list">
