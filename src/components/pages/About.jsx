@@ -23,7 +23,7 @@ function About(){
                         <div className='text'>
                             <p>Comecei primeiramente pela área de hardware e no ano passado entrei no mundo da programação. </p>
                             <p>Acredito que todo conhecimento que eu adquirir me ajudará no meio acadêmico e profissional.</p>
-                            <a href="https://drive.google.com/file/d/1CtMbn1E10WkvyX8-1bQTBPtJrcBs0Z5S/view?usp=sharing" target="_blank"><button className='btn'> Ver Currículo <i class='bx bxs-file curr' ></i></button></a>
+                            <a href="https://drive.google.com/file/d/1hisPgrt6VKhtIBx6UbnRxs9omJLehg-D/view?usp=share_link" target="_blank"><button className='btn'> Ver Currículo <i class='bx bxs-file curr' ></i></button></a>
                         </div>
                     </div>
                 </div>

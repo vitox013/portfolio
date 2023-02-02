@@ -20,6 +20,9 @@
   gap: 1rem;
 }
 
+abbr {
+  text-decoration: none;
+}
 .bio {
   display: flex;
   font-size: 1.125rem;

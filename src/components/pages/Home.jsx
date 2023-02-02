@@ -17,7 +17,7 @@ function Home(){
                     <p className='name'>Vitor Müller <GiHand/></p>
                     <p className='profissao'><AiOutlineLine/> Dev Full Stack</p>
                     <div className='sub_bio'>
-                        <p>Estudante de Sistemas de Informação na UTFPR.</p>
+                        <p>Estudante de Sistemas de Informação na <abbr title='Universidade Tecnológica Federal do Paraná' >UTFPR</abbr>.</p>
                         <p>Entusiasta por Tecnologia.</p>
                     </div>
                     <Button text="Diga Olá" link="mailto:vitor.muller310@gmail.com"/>
