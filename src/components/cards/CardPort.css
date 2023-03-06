@@ -10,6 +10,7 @@
   justify-content: center;
   justify-items: center;
   transition: 0.2s ease-in-out;
+  position: relative;
 }
 .cardPort:hover {
   transform: translateY(-5px);
@@ -26,11 +27,25 @@
 }
 
 img {
-  width: 356px;
+  /* width: 356px; */
   height: 253px;
   border-radius: 20px;
   margin: 1rem 0rem;
   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.507);
+}
+
+.git {
+  color: #011526;
+  position: absolute;
+  font-size: 2rem;
+  right: 0;
+  bottom: 0;
+  margin: 0.5em;
+  transition: 0.2s ease-in-out ;
+}
+
+.git:hover {
+  color: white;
 }
 
 .title {
