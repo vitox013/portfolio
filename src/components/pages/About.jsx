@@ -41,7 +41,7 @@ function About() {
                                 Atualmente focado em desenvolvimento Full-Stack.
                             </p>
                             <a
-                                href="https://drive.google.com/file/d/1iEpu130FJbzAPP9DlVrnsYMun0tcZVxc/view?usp=share_link"
+                                href="https://drive.google.com/file/d/1DLmhDuwN1EspOPt0xJzZrTrtOURziSHP/view?usp=sharing"
                                 target="_blank"
                             >
                                 <button className="btn">
