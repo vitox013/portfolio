@@ -11,3 +11,10 @@ Este é o repositório do meu portfólio pessoal, desenvolvido em React e utiliz
 - **React Scroll** - Facilita a navegação por seções da página
 - **ReactJS Popup** - Biblioteca para criar popups
 - **EmailJS** - Integração para envio de emails sem necessidade de backend
+
+## Visite o Portfólio
+
+Para visualizar o portfólio online, clique no link abaixo:
+
+[Visitar Portfólio](https://vitox013.github.io/portfolio/)
+
